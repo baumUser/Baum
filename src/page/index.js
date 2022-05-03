@@ -73,6 +73,8 @@ export const Main = () => {
       return { p1: 44.8, p2: 39.72, r: 35.3 };
     } else if (widthW > 2600 && widthW <= 2700) {
       return { p1: 46.45, p2: 41.27, r: 37.5 };
+    } else if (widthW > 2700 && widthW <= 2800) {
+      return { p1: 48.15, p2: 42.77, r: 39.7 };
     } else if (widthW > 2800 && widthW <= 2900) {
       return { p1: 49.92, p2: 44.3, r: 43.1 };
     } else if (widthW > 2900 && widthW <= 3000) {
@@ -180,7 +182,7 @@ export const Main = () => {
             size: "2em",
           }}
         >
-          BAUM.UA
+          BAUM.UA ADMIN
         </p>
       </div>
       <div
